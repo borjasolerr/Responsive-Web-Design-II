@@ -66,6 +66,18 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+html {
+    font-size: 62.5%;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
+p, li {
+    font-size: 1.2rem;
+}
+
 .container {
 	margin: 0 auto;
     max-width: 880px;
@@ -98,6 +110,7 @@ h1, h2, h3, h4, h5 {
 .header-nav-items {
     width: 65%;
     margin-top: 2%;
+    font-size: 1.3rem;
     display: flex;
     justify-content: space-evenly;
 }
@@ -135,7 +148,7 @@ h1, h2, h3, h4, h5 {
 .header-title-1-contents h1 {
     text-align: center;
     margin: 0 20%;
-    font-size: 4.5rem;
+    font-size: 6.5rem;
 }
 
 .button {
@@ -144,7 +157,7 @@ h1, h2, h3, h4, h5 {
     padding: 0% 15%;
     margin-top: 30%;
     border: 1px solid #000;
-    font-size: 1rem;
+    font-size: 1.4rem;
 }
 
 .main {
@@ -210,7 +223,8 @@ h1, h2, h3, h4, h5 {
 }
 
 .copyright {
-	text-align: center;
+    text-align: center;
+    font-size: 1.2rem;
 	width: 50%;
 	height: 10px;
 	margin: 2%;
@@ -297,7 +311,7 @@ div.header-title-2 {
 .header-title-1-contents h1 {
     margin: 0 9%;
     padding: 0 10%;
-    font-size: 5rem;
+    font-size: 8rem;
 }
 
 h1 {
@@ -374,7 +388,7 @@ h1 {
 }
 
 .header-title-1-contents h1 {
-    font-size: 4rem;
+    font-size: 5.4rem;
     padding: 0 2%;
     orientation: left;
 }
