@@ -160,6 +160,21 @@ p, li {
     font-size: 1.4rem;
 }
 
+.transition{
+    border-radius: 10px;
+    transition: .4s background ease-out;
+}
+  
+.transition p {
+    margin:0;
+    padding:0;
+    pointer-events: none;
+}
+  
+.transition:hover {
+    background:#45e6b6;
+}
+
 .main {
 	height: 30%;
 	width: 85%;
@@ -171,7 +186,7 @@ p, li {
 .main div{
 	width: 85%;
 	height: 30%;
-	margin: 5% 2%;
+	margin: 3% 2%;
 }
 
 .top {
@@ -245,6 +260,14 @@ img {
 	padding: 2%;
 	border: 1px solid #000;
 	background-color: #ddd;
+}
+
+.services-header-img {
+    max-width: 100%;
+}
+
+.services-info-img {
+    max-width: 100%;
 }
 
 .header-title-column {
@@ -413,5 +436,9 @@ div.header-title-1 {
 }
 .footer {
     width: 90%;
+}
+
+.services-info-img {
+    max-width: 190%;
 }
 }
